@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: black; */
+    background-color: rgb(136, 119, 119);
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.Box-Container{
+    /* height: 200px; */
+    width: 350px;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+button{
+    display: block;
+    width:100%;
+    background-color: black;
+    color: #FFFFFF;
+    margin-top: 8px;
+    padding: 5px;
+    border-radius: 6px;
+}
